@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        trust: "#1E1B4B",
+      },
+      fontFamily: {
+        sans: ["Poppins", "ui-sans-serif", "system-ui", "sans-serif"],
       },
     },
   },

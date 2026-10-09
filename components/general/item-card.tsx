@@ -42,7 +42,7 @@ export default function ItemCard({ article }: ItemCardProps) {
 
   return (
     <Link href={`/articles/${article.id}`} className="group block h-full">
-      <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100 overflow-hidden flex flex-col h-full relative">
+      <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100 overflow-hidden flex flex-col h-full relative">
 
         {/* Badges */}
         <div className="absolute top-2 left-2 z-10 flex flex-col gap-1">
@@ -83,7 +83,7 @@ export default function ItemCard({ article }: ItemCardProps) {
 
         {/* Content */}
         <div className="p-4 flex flex-col flex-grow">
-          <h3 className="text-gray-900 font-medium line-clamp-2 min-h-[3rem] mb-1 group-hover:text-indigo-600 transition-colors">
+          <h3 className="text-trust font-semibold line-clamp-2 min-h-[3rem] mb-1 group-hover:text-indigo-600 transition-colors">
             {article.title}
           </h3>
 
